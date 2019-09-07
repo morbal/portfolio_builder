@@ -123,3 +123,8 @@ class OptionTools:
 
     def calc_greeks(self):
         return NotImplementedError
+
+
+controller_dict: dict = {
+    'call_list': ['Call', 'call', 'c'], 'put_list': ['Put', 'put', 'p']
+}
